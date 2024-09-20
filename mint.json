@@ -6,15 +6,15 @@
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
+"colors": {
+  "primary": "#fb1c5b",
+  "light": "#fb1c5b",
+  "dark": "#fb1c5b",
+  "anchors": {
+    "from": "#fb1c5b",
+    "to": "#fb1c5b"
+  }
+},
   "topbarLinks": [
     {
       "name": "Support",
