@@ -1,11 +1,12 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "WeBump DDocumentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/rLogo.svg",
+    "light": "/logo/rLogo.svg"
   },
   "favicon": "/favicon.svg",
+  "backgroundImage": "/images/background.svg",
   "colors": {
     "primary": "#fb1c5b",
     "light": "#ff6091",
@@ -19,6 +20,10 @@
     {
       "name": "Support",
       "url": "https://discord.gg/kgYuYDmCqh"
+    },
+    {
+      "name": "Premium",
+      "url": "https://webumpbot.vercel.app/premium"
     }
   ],
   "topbarCtaButton": {
@@ -41,10 +46,17 @@
   "navigation": [
     {
       "group": "Getting Started",
+      "pages": ["introduction", "quickstart"]
+    },
+    {
+      "group": "Server Setup",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "serverSetup/serverdesc",
+        "serverSetup/bumpchannel",
+        "serverSetup/invitechannel",
+        "serverSetup/bannersetup",
+        "serverSetup/colorsetup",
+        "serverSetup/autobump"
       ]
     }
   ],
