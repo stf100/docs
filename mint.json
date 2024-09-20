@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "WeBump DDocumentation",
+  "name": "WeBump Documentation",
   "logo": {
     "dark": "/logo/rLogo.svg",
     "light": "/logo/rLogo.svg"
